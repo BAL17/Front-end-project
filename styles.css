@@ -1,85 +1,196 @@
 
-
 body {
-    /* background-image: url(../images/background.jpeg); */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: transparent;
     /* background-color: #464646; */
-    background-image: url(/Resouses/desktop-wallpaper-pokemon-legendary-9243-cool-epic-legendary-pokemon.jpg);
+    background-image: url(/Resouses/pokemon-windows-xp-wallpaper-thumb.jpg);
     /* background-image: url(/Resouses/legendary-pokemon-wallpaper-1-2-3-and-5-gen-by-jocinik-on-deviantart.png); */
 }
 
-    #pokedex {
-        width: 300px;
-        height: 500px;
-        background-color: tomato;
-        margin: auto;
-        margin-top: 30px;
-        border-radius: 0px;
-        border: 5px solid black;
-        padding: 20px;
-        flex-direction: column;
-        display: flex;
-        justify-content: space-between;
 
-      }
-      
-      .input-group {
-        position: absolute;
-        margin-top: 25px
-      }
-
-      .pokeman-card {
-        width: auto;
-        background-color: whitesmoke;
-        color: black;
-        border-radius: 20px;
-        padding: 20px;
-        margin: 10px;
-        display: inline-block;
-        wrap: flex;
-
-      }
-
-     .pokeman-image {
-
-     }
-
-
-    .btnOne {
-        background-color: rgb(39, 140, 195);
-        width: 40px;
-        height: 4px;
-        
-        border-radius: 12%;
-    }
-
-    .btnTwo {
-        background-color: rgb(231, 45, 85);
-        width: 40px;
-        height: 4px;
-        margin-bottom: ;
-        border-radius: 12%;
-    }
-.btn {
-    background-color: green;
-    width: 35%;
-    height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    overflow: auto;  
-    margin-left: .5in;
-    border-radius: 12%;
+#pokedex {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(246, 75, 45);
+  margin: auto;
+  margin-top: 30px;
+  border: 5px solid black;
+  padding: 20px;  
+  border-radius: 20px;
 }
 
-.clear-btn{
-    background-color: blanchedalmond;
-  float: left;
+#pokeman-display {
+  background-color: grey;
+  border: 2px solid  black;
+  border-radius: 20px;
+  width: 298px;
+  height: 350px;
+  position: absolute;  
+  top: 80px;
+}
+
+.pokeman-name {
+font-family: 'Press Start 2P', cursive;
+font-size: 10px;
+position: relative;
+left: 70px;
+
+}
+.pokeball-image{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  position: relative;
+  left: 45px;
+  top: 25px;
+}
+.pokeman-image{
+  position: relative;
+  left: 50px;
+}
+
+.form-control {
+  height: 25px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 5px;
+  top: 410px;
+  left: 69px
+}
+
+
+.pokeman-card {
+  width: 258px;
+  height: 310px;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  font-size:medium;
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+
+}
+.pokeman-subdata{
+  position: relative;
+  top: 12px;
+  font-family: 'Press Start 2P', regular;
+  font-size: 12px;
+}
+.pokeman-subdata-stats{
+  position: relative;
+  right: 20px;
+  bottom: 7px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 9px;
+}
+
+.spanLeftDiv{
+/* width: px;
+height: 20px; */
+border: 2px solid  rgb(246, 75, 45);
+position: relative;
+bottom: 1px;
+}
+.spanRightDiv{
+  height: 175px;
+  border: 2px solid rgb(246, 75, 45);
+  position: relative;
+  bottom: 3px;
+  }
+
+.btnBlue{
+  height: 35px;
+  width: 35px;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: rgb(54, 201, 246);
+  position: relative;
+  bottom: 610px;
+  right: 5px;
+}
+
+.btnGreen{
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: green;
+  position: relative;
+  bottom: 591px;
+  left: 100px;
+}
+
+.btnYellow{
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: yellow;
+  position: relative;
+  bottom: 555px;
+  left: 70px;
+}
+
+.btnRed{
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: red;
+  position: relative;
+  bottom: 574px;
+  left: 40px;
+}
+
+.btnOne {
+  background-color: rgb(39, 140, 195);
+  width: 40px;
+  height: 4px;
+  border-radius: 12%;
+  position: relative;
+  top: 408px;
+  left: 150px;
+}
+
+.btnTwo {
+  background-color: rgb(231, 45, 85);
+  width: 40px;
+  height: 4px;
+  border-radius: 12%;
+  position: relative;
+  top: 390px;
+  left: 100px;
+  
+}
+
+.btn {
+  background-color: green;
+  width: 35%;
+  height: 40px;
+  font-family:'Press Start 2P', cursive;
+  font-size: 12px;
+  border-radius: 12%;
+  margin-left: .4in;
+  margin-top: 4.1in ;
+
+}
+
+.btnCatch {
+    background-color: #ffcc03;
     width: 35%;
     height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    overflow: auto;  
+    border-radius: 12%;
+    font: Pokemon Solid;
+    font-size: 12px;
+    font-family:'Press Start 2P', cursive;
+    position: relative;
+    bottom: 40px;
+    left: 150px;
 }
