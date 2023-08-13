@@ -2,10 +2,10 @@
 //async pull data from input
 $('.btn').click(async function(){
     const userInput = $('input[type="text"]').val()
-    // const alert1 = alert('Try again (check spelling and make the name lowercase)')
-    // if(userInput === true){  
+    // // const alert1 = alert('Try again (check spelling and make the name lowercase)')
+    // // if(userInput === true){  
         catchPokeData(userInput)
-    // }
+    // // }
     // return alert1
 });
 
