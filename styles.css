@@ -72,9 +72,17 @@ body {
   bottom: 10px;
   right: 10px;
 }
+.pokeman-data{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  margin: 1rem auto;
+}
+
 .pokeman-subdata {
-  position: relative;
-  top: 12px;
+  display: flex;
+  flex-direction: column;
   font-family: "Press Start 2P", regular;
   font-size: 12px;
 }
@@ -87,17 +95,19 @@ body {
 }
 
 .spanLeftDiv {
-  /* width: px;
-height: 20px; */
-  border: 2px solid rgb(246, 75, 45);
+  border-bottom: 2px solid rgb(246, 75, 45);
   position: relative;
   bottom: 1px;
 }
 .spanRightDiv {
   height: 175px;
-  border: 2px solid rgb(246, 75, 45);
   position: relative;
   bottom: 3px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
 }
 
 .btnBlue {
